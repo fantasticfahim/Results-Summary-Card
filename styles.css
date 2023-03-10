@@ -1,0 +1,146 @@
+#container {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#result-card {
+    width: 250px;
+    height: 350px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 70%, 54%);
+    border-radius: 8%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+#result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    background-color: rgb(47, 56, 186);
+    margin-bottom: 20px;
+}
+
+#number {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#of {
+    font-size: x-small;
+}
+
+#great {
+    font-size: large;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: lighter;
+}
+
+#summary-card {
+    width: 250px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 50%;
+    margin-bottom: 50%;
+    border: 1px solid rgb(219, 218, 218);
+    border-top: none;
+    border-left: none;
+    border-radius: 8%;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+#summary {
+    padding-right: 120px;
+    margin-top: 20px;
+    color: rgb(44, 44, 120);
+    padding-bottom: 10px;
+}
+
+#reaction {
+    color: rgb(245, 168, 168);
+    width: 210px;
+    height: 30px;
+    background-color: rgb(255, 241, 241);
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#memory {
+    color: rgb(204, 189, 95);
+    width: 210px;
+    height: 30px;
+    background-color: rgb(242, 242, 226);
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#verbal {
+    color: rgb(35, 182, 60);
+    width: 210px;
+    height: 30px;
+    background-color: rgb(241, 248, 243);
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#visual {
+    color: rgb(62, 67, 194);
+    width: 210px;
+    height: 30px;
+    background-color: rgb(241, 243, 255);
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+button {
+    width: 210px;
+    margin-left: 25px;
+    font-family: inherit;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: rgb(25, 25, 72);
+}
+
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
